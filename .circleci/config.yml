@@ -15,4 +15,4 @@ workflows:
   ci_build:
     jobs:
       - publish-package:
-          context: global
+          context: Global
