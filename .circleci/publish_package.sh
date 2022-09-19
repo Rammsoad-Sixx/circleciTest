@@ -5,7 +5,7 @@ set -ex
 # HOST="https://wework.jfrog.io/artifactory/api/composer/php-local"
 HOST="https://rafapaz.jfrog.io/artifactory/composer-php-local"
 VERSION=$(echo "${CIRCLE_TAG}" | sed 's/^v//')
-VERSION=1.0.0
+VERSION=2.0.0
 echo "${VERSION}"
 FILE_NAME="welkio-error-$VERSION.zip"
 git archive -o "$FILE_NAME" HEAD
