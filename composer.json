@@ -1,0 +1,15 @@
+{
+    "name": "rafael.ruiz/test",
+    "autoload": {
+        "psr-4": {
+            "RafaelRuiz\\Circlecitest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RafaelWize",
+            "email": "rafael.ruiz@wizeline.com"
+        }
+    ],
+    "require": {}
+}
